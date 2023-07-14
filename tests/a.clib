@@ -1,0 +1,4 @@
+(
+    (include "b.clib")
+    (defconstant CONST_A 100)
+)

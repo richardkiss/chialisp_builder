@@ -1,0 +1,4 @@
+(mod (X)
+    (include "a.clib")
+    (+ X (+ CONST_A CONST_B))
+)
