@@ -16,6 +16,8 @@ def find_included_items(item: Path) -> List[Path]:
         s = match[-1]
         if len(s) > 1 and s[0] == s[-1] and s[0] in "'\"":
             included.append(s[1:-1])
+        else:
+            included.append(s)
     return included
 
 
