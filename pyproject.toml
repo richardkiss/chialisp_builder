@@ -4,7 +4,7 @@ description = "Allow on-demand builds of chialisp with recursive dependency chec
 authors = [{name = "Richard Kiss", email = "him@richardkiss.com"}]
 license = {file = "LICENSE"}
 readme = "README.md"
-version = "0.1.0"
+version = "0.1.2"
 dependencies = ["clvm_tools_rs", "runtime_builder >= 0.1.3"]
 
 [build-system]
