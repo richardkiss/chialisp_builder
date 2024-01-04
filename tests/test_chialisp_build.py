@@ -15,7 +15,7 @@ def test_chialisp_build():
         shutil.copytree(here, tmpdir, dirs_exist_ok=True)
 
         # create builder
-        mod_file = tmpdir / "mod.clsp"
+        _mod_file = tmpdir / "mod.clsp"
         artifact_f = ChialispBuild(include_paths=[tmpdir])
         target_path = tmpdir / "mod.hex"
 
