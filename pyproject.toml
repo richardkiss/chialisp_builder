@@ -1,11 +1,11 @@
 [project]
-name = "chialisp_builder"
+name = "quex_chialisp_builder"
 description = "Allow on-demand builds of chialisp with recursive dependency checking."
 authors = [{name = "Richard Kiss", email = "him@richardkiss.com"}]
 license = {file = "LICENSE"}
 readme = "README.md"
 version = "0.1.0"
-dependencies = ["clvm_tools_rs", "runtime_builder @ git+https://github.com/richardkiss/runtime_builder@411da6aaa225945232fb0223b69905a17e8455b2#egg=runtime_builder"]
+dependencies = ["clvm_tools_rs", "quex_runtime_builder==0.0.1"]
 
 [build-system]
 requires = ["setuptools>=42", "wheel"]
